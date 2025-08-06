@@ -1,12 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quis 01</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #b10000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu {
+            background-color: #ff8c00;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            min-height: 400px;
+        }
+
+        .sidebar {
+            background-color: #d65c4f;
+            color: white;
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .content {
+            background-color: #ffa500;
+            color: white;
+            flex: 2;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #b10000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-<h1 style="font-size:60px;">Heading 1</h1>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+
+    <div class="header">Header</div>
+    <div class="menu">Menu Navigasi</div>
+
+    <div class="container">
+        <div class="sidebar">Sidebar</div>
+        <div class="content">Content</div>
+        <div class="sidebar">Sidebar</div>
+    </div>
+
+    <div class="footer">Footer</div>
 
 </body>
 </html>
